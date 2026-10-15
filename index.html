@@ -1,170 +1,234 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Roshna K — Cosmology, scientific computing and data analysis.">
-<title>Roshna K</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-* { box-sizing: border-box; }
+    <meta name="description"
+          content="Roshna K — PhD researcher in cosmology, CMB physics and dark energy.">
 
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #292d32;
-    background: #fff;
-    font-size: 14px;
-    line-height: 1.55;
-}
+    <title>Roshna K | Academic Profile</title>
 
-main {
-    width: min(1000px, 92%);
-    margin: 30px auto;
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    padding-bottom: 18px;
-    border-bottom: 1px solid #e5e7eb;
-}
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #292d32;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
 
-.identity {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
+        main {
+            width: min(960px, 92%);
+            margin: 35px auto;
+        }
 
-.photo {
-    width: 105px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 4px;
-    background: #f1f3f5;
-}
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
 
-h1 {
-    margin: 0;
-    font-size: 28px;
-    font-weight: 600;
-}
+        .identity {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
 
-.subtitle {
-    margin: 4px 0 0;
-    color: #59636d;
-}
+        .photo {
+            width: 105px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px;
+            background: #f1f3f5;
+        }
 
-.contact {
-    text-align: right;
-    font-size: 13px;
-    line-height: 1.9;
-}
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
 
-a {
-    color: #245a7a;
-    text-decoration: none;
-}
+        .subtitle {
+            margin: 5px 0 0;
+            color: #59636d;
+        }
 
-a:hover { text-decoration: underline; }
+        .contact {
+            text-align: right;
+            font-size: 13px;
+            line-height: 2;
+        }
 
-.contact a { margin-left: 10px; }
+        a {
+            color: #245a7a;
+            text-decoration: none;
+        }
 
-h2 {
-    font-size: 16px;
-    margin: 0 0 7px;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-p { margin: 0; }
+        .contact-links {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
 
-.content {
-    display: grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    gap: 28px;
-    padding-top: 20px;
-}
+        .content {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 36px;
+            padding-top: 24px;
+        }
 
-section { margin-bottom: 18px; }
+        section {
+            margin-bottom: 22px;
+        }
 
-.guide {
-    color: #59636d;
-    font-size: 13px;
-    margin-top: 8px;
-}
+        h2 {
+            margin: 0 0 8px;
+            font-size: 16px;
+            font-weight: 600;
+        }
 
-.cv-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 8px;
-}
+        p {
+            margin: 0;
+        }
 
-.cv-links a {
-    border: 1px solid #245a7a;
-    border-radius: 4px;
-    padding: 5px 10px;
-}
+        .detail {
+            margin-top: 8px;
+            color: #59636d;
+            font-size: 13px;
+        }
 
-@media (max-width: 650px) {
-    main { margin: 22px auto; }
+        .cv-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 13px;
+            border: 1px solid #245a7a;
+            border-radius: 4px;
+            font-weight: 600;
+        }
 
-    header {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 14px;
-    }
+        footer {
+            margin-top: 20px;
+            padding-top: 12px;
+            border-top: 1px solid #e5e7eb;
+            color: #777;
+            font-size: 12px;
+        }
 
-    .contact { text-align: left; }
-    .contact a { margin-left: 0; margin-right: 12px; }
+        @media (max-width: 650px) {
+            main {
+                margin: 22px auto;
+            }
 
-    .content {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-}
-</style>
+            header {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .contact {
+                text-align: left;
+            }
+
+            .contact-links {
+                justify-content: flex-start;
+            }
+
+            .content {
+                grid-template-columns: 1fr;
+                gap: 0;
+                padding-top: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .photo {
+                width: 90px;
+                height: 105px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 <main>
+
     <header>
         <div class="identity">
-            <img class="photo" src="profile.jpeg" alt="Photo of Roshna K">
+            <img
+                class="photo"
+                src="profile.jpeg"
+                alt="Photo of Roshna K"
+            >
 
             <div>
                 <h1>Roshna K</h1>
                 <p class="subtitle">
-                    Physics Researcher | Cosmology | Scientific Computing
+                    PhD Researcher in Cosmology | NITK Surathkal
                 </p>
             </div>
         </div>
 
         <div class="contact">
-            <div><a href="tel:+918281497002">+91 8281497002</a></div>
-            <div><a href="mailto:kroshna04@gmail.com">kroshna04@gmail.com</a></div>
             <div>
-                <a href="https://github.com/roshna-kakkookal">GitHub</a>
-                <a href="https://www.linkedin.com/in/roshna-k-0801a2294/">LinkedIn</a>
-                <a href="https://orcid.org/0009-0001-4841-0477">ORCID</a>
+                <a href="tel:+918281497002">+91 8281497002</a>
             </div>
+
+            <div>
+                <a href="mailto:kroshna04@gmail.com">
+                    kroshna04@gmail.com
+                </a>
+            </div>
+
+            <nav class="contact-links" aria-label="Academic profiles">
+                <a href="https://github.com/roshna-kakkookal"
+                   target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://www.linkedin.com/in/roshna-k-0801a2294/"
+                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="https://orcid.org/0009-0001-4841-0477"
+                   target="_blank" rel="noopener noreferrer">ORCID</a>
+            </nav>
         </div>
     </header>
 
     <div class="content">
+
         <div>
             <section>
-                <h2>About</h2>
+                <h2>Research Profile</h2>
                 <p>
-                    PhD researcher in cosmology at NITK Surathkal, with thesis
-                    submitted. My research investigates the early and late
-                    Universe using the cosmic microwave background (CMB) and
-                    Type Ia supernovae, with a focus on primordial physics
-                    and dark energy.
+                    My doctoral research investigates the early and late
+                    Universe using observations of the cosmic microwave
+                    background (CMB) and Type Ia supernovae. My work focuses
+                    on primordial physics, dark energy, cosmological
+                    parameter estimation, and statistical inference.
                 </p>
-                <p class="guide">
+
+                <p class="detail">
+                    PhD in Physics, NITK Surathkal —
+                    Thesis submitted; awaiting viva/completion.
+                </p>
+
+                <p class="detail">
                     Research guide: Dr. V. Sreenath, NITK Surathkal
                 </p>
             </section>
@@ -172,37 +236,83 @@ section { margin-bottom: 18px; }
             <section>
                 <h2>Research Interests</h2>
                 <p>
-                    Cosmology, primordial physics, dark energy, and
-                    statistical inference.
+                    Early and late Universe, cosmic microwave background,
+                    primordial physics, dark energy, ΛCDM and extensions,
+                    and observational cosmology.
+                </p>
+            </section>
+
+            <section>
+                <h2>Research Methods</h2>
+                <p>
+                    Likelihood-based analysis, Bayesian and frequentist
+                    inference, Markov chain Monte Carlo, nested sampling,
+                    generalised least squares, bootstrap and jackknife
+                    resampling, uncertainty estimation, and model comparison.
                 </p>
             </section>
         </div>
 
         <div>
             <section>
-                <h2>Technical Profile</h2>
+                <h2>Scientific Computing</h2>
                 <p>
-                    Python-based scientific computing, statistical data
-                    analysis, parameter estimation, Bayesian and frequentist
-                    methods, data visualisation, and Linux/HPC environments.
+                    Python, C, NumPy, SciPy, Matplotlib, CLASS, CAMB,
+                    Cobaya, CosmoMC, MontePython, emcee, PolyChord,
+                    GetDist, and healpy.
+                </p>
+                <p class="detail">
+                    Experience with Linux/HPC environments and
+                    computational workflows for cosmological data analysis.
+                </p>
+            </section>
+
+            <section>
+                <h2>Publications</h2>
+                <p>
+                    Roshna K, Nikhil Fernandes, P. Praveen, and V. Sreenath,
+                    “Constraining dark energy models using Jackknife and
+                    Bootstrap resampling.”
+                </p>
+                <p class="detail">
+                    <a href="https://arxiv.org/abs/2601.16197"
+                       target="_blank" rel="noopener noreferrer">
+                        Read on arXiv: 2601.16197
+                    </a>
                 </p>
             </section>
 
             <section>
                 <h2>Curriculum Vitae</h2>
-                <p>Download my CV for details of my experience and skills.</p>
-                <div class="cv-links">
-                    <a href="Roshna_K_Industry_CV.pdf" download>
-                        Industry CV (PDF)
+                <p>
+                    Download my academic CV for further details of my
+                    research, publications, conferences, and education.
+                </p>
+
+                <a class="cv-link"
+                   href="Roshna_K_Academic_CV.pdf"
+                   download>
+                    Download Academic CV (PDF)
+                </a>
+            </section>
+
+            <section>
+                <h2>Research Code</h2>
+                <p>
+                    <a href="https://github.com/roshna-kakkookal"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub repositories
                     </a>
-                    <a href="Roshna_K_Academic_CV.pdf" download>
-                        Academic CV (PDF)
-                    </a>
-                </div>
+                </p>
             </section>
         </div>
+
     </div>
+
+    <footer>
+        © 2026 Roshna K
+    </footer>
+
 </main>
 </body>
 </html>
-```
