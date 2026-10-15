@@ -1,30 +1,191 @@
-roshna-kakkookal
-roshna-kakkookal.github.io
-Public
-Start coding with Codespaces
-Add a README file and start coding in a secure, configurable, and dedicated development environment.
 
-Add collaborators to this repository
-Search for people using their GitHub username or email address.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Quick setup — if you’ve done this kind of thing before
-or
+    <meta name="description"
+          content="Roshna K — Physics researcher in cosmology and scientific computing.">
 
-HTTPS
+    <title>Roshna K</title>
 
-SSH
-https://github.com/roshna-kakkookal/roshna-kakkookal.github.io.git
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-…or create a new repository on the command line
-echo "# roshna-kakkookal.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/roshna-kakkookal/roshna-kakkookal.github.io.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin https://github.com/roshna-kakkookal/roshna-kakkookal.github.io.git
-git branch -M main
-git push -u origin main
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #292d32;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        main {
+            width: min(760px, 90%);
+            margin: 80px auto;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            margin-bottom: 32px;
+        }
+
+        .photo {
+            width: 135px;
+            height: 155px;
+            object-fit: cover;
+            border-radius: 4px;
+            background: #f1f3f5;
+        }
+
+        h1 {
+            margin: 0 0 4px;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            margin: 0;
+            color: #555e66;
+        }
+
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        a {
+            color: #245a7a;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-top: 22px;
+        }
+
+        .cv-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 7px 14px;
+            border: 1px solid #245a7a;
+            border-radius: 4px;
+        }
+
+        footer {
+            margin-top: 55px;
+            color: #777;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 520px) {
+            main {
+                margin: 40px auto;
+            }
+
+            .profile {
+                align-items: flex-start;
+                gap: 18px;
+            }
+
+            .photo {
+                width: 100px;
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="profile">
+            <!-- Replace profile.jpg with your photo filename -->
+            <img
+                class="photo"
+                src="profile.jpg"
+                alt="Photo of Roshna K"
+            >
+
+            <div>
+                <h1>Roshna K</h1>
+                <p class="subtitle">
+                    Physics Researcher | Cosmology | Scientific Computing
+                </p>
+            </div>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>
+                I am a PhD researcher in cosmology at NITK Surathkal,
+                with research experience in the early and late Universe,
+                the cosmic microwave background (CMB), and Type Ia
+                supernovae. My work involves scientific computing,
+                statistical data analysis, and parameter estimation.
+            </p>
+        </section>
+
+        <section>
+            <h2>Research Interests</h2>
+            <p>
+                Cosmology, primordial physics, dark energy,
+                statistical inference, and scientific computing.
+            </p>
+        </section>
+
+        <section>
+            <h2>Curriculum Vitae</h2>
+            <p>
+                For details of my research experience, technical skills,
+                and publications, please see my CV.
+            </p>
+
+            <!-- Upload your CV to the repository and update this filename -->
+            <a class="cv-link" href="Roshna_K_CV.pdf" download>
+                Download CV (PDF)
+            </a>
+        </section>
+
+        <nav class="links" aria-label="Professional profiles">
+            <a href="https://www.linkedin.com/in/roshna-k-0801a2294/"
+               target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+            <a href="https://github.com/roshna-kakkookal"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+
+            <a href="https://orcid.org/0009-0001-4841-0477"
+               target="_blank" rel="noopener noreferrer">ORCID</a>
+
+            <!-- Replace with your email address -->
+            <a href="mailto:YOUR_EMAIL@example.com">Email</a>
+        </nav>
+
+        <footer>
+            © 2026 Roshna K
+        </footer>
+    </main>
+</body>
+</html>
